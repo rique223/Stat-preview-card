@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+  background: hsl(233, 47%, 7%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  border-radius: 0 8px 8px 0;
+  width: 48.6%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1110px;
+  height: 447px;
+
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 8px;
+  color: hsl(0, 0%, 100%);
+}
+
+.text {
+  margin: 2.7rem 7rem 3.5rem 4.5rem;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  width: 51.4%;
+}
+
+.insights {
+  color: #a25bd3;
+}
+
+.highlighted {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+
+.numbersRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.numbersRow p {
+  margin: 0;
+  padding-right: 2.5rem;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.textRow p {
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 25px;
+  margin-right: 2rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 0;
+}
+
+.textRow h1 {
+  line-height: 44px;
+  font-size: 37px;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 23px;
+}
